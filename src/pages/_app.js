@@ -1,5 +1,12 @@
-import '@/styles/globals.css'
+// import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <header>
+        <h1>📗 IziQ-Study</h1>
+      </header>
+      <Component {...pageProps} />
+    </>
+  );
 }
